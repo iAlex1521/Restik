@@ -14,4 +14,96 @@ a:hover{text-decoration: none;}
 ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+@font-face {
+	font-family: Akzidenz;
+	src: url(/fonts/AkzidenzGroteskBQ-BdCnd.ttf);
+}
+@font-face {
+	font-family: Bebas;
+	src: url(/fonts/Bebas-Regular.ttf);
+}
 /*--------------------*/
+body{
+	font-family: "pt sans";
+	max-width: 872px;
+	margin: 0px auto;
+	font-size: 15px;
+}
+.header-top {
+	padding: 32px 5px 0px 5px;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-top-lang {
+}
+
+.header-top-lang-item {
+	font-family: Bebas;
+	font-size: 10px;
+	line-height: 2.5;
+	letter-spacing: 1px;
+	color: #000;
+	text-transform: uppercase;
+	margin-right: 10px;
+	padding: 4px;
+}
+.header-top-lang-item:first-child {
+	background-color: #000;
+	color: #fff;
+}
+
+.header-top-link {
+	font-family: Akzidenz;
+	text-decoration: underline;
+	line-height: 1.67;
+	color: #000;
+}
+
+nav {
+	letter-spacing: 1.5px;
+	font-family: Akzidenz;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: -15px;
+}
+.nav-list-left {
+	display: flex;
+	flex: 0 0 33.333%;
+	justify-content: space-between;
+}
+
+.nav-list-item {
+	line-height: 1.67;
+	letter-spacing: 1.5px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.header-logo {
+	flex: 0 0 33.333%;
+	display: block;
+	text-align: center;
+}
+
+.header-logo-text {
+	display: block;
+	font-family: Bebas;
+	font-size: 8px;
+	letter-spacing: 8px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.header-logo-item {
+	display: inline-block;
+	margin: 14px 0 22px 0;
+}
+
+.nav-list-rigth {
+	display: flex;
+	flex: 0 0 33.333%;
+	justify-content: space-between;
+}
