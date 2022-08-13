@@ -25,9 +25,14 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 body{
 	font-family: "pt sans";
-	max-width: 872px;
+	max-width: 1368px;
 	margin: 0px auto;
 	font-size: 15px;
+	background-color: #fff;
+}
+header {
+	width: 872px;
+	margin: 0px auto;
 }
 .header-top {
 	padding: 32px 5px 0px 5px;
@@ -106,4 +111,109 @@ nav {
 	display: flex;
 	flex: 0 0 33.333%;
 	justify-content: space-between;
+}
+
+/* 1 block 'private' */
+.private {
+	display: flex;
+	margin-top: 33px;
+	color: #fff;
+}
+
+.private-column {
+	width: 50%;
+	background-color: #000;
+}
+
+.private-column-image {}
+
+.private-column-title {
+	font-family: Akzidenz;
+	margin: 82px 0 37px 62px;
+	font-size: 50px;
+	/* line-height: 1; */
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	width: 200px;
+}
+
+.private-column-text {
+	margin-left: 62px;
+	line-height: 1.67;
+	width: 303px;
+	height: 39px;
+}
+
+.private-column-buttons {
+	margin: 73px 0 0 62px;
+	font-family: Bebas;
+	/* line-height: 1.67; */
+	letter-spacing: 1.5px;
+	
+}
+
+.private-column-buttons-button {
+	background-color: #fff;
+	color: #000;
+	padding: 17px 33px;
+	margin-right: 14px;
+
+}
+
+.private-column-buttons-link {
+	text-decoration: underline;
+	color: #fff;
+}
+
+/* block 2 Category */
+.category {
+	margin-top: 75px;
+}
+.category-list {
+	width: 872px;
+	margin: 0px auto;
+	display: flex;
+}
+
+.category-list-item {}
+
+.category-list-item-image {
+width: 220px;
+}
+.h2-category {
+	font-family: Akzidenz;
+	font-size: 25px;
+	line-height: 1;
+	letter-spacing: 2.5px;
+	color: #000;
+	text-transform: uppercase;
+	width: 110px;
+	margin: 25px 0 36px 0;
+}
+
+.category-list-item-tex {
+	line-height: 1.67;
+	
+}
+
+.category-list-item-buttons {
+	font-family: Bebas;
+	line-height: 1.67;
+	letter-spacing: 1.5px;
+	margin-bottom: 79px;
+}
+
+.category-list-item-button {
+	display: inline-block;
+	background-color: #000;
+	color: #fff;
+	padding: 17px 33px;
+	text-transform: uppercase;
+	margin: 32px 0 29px 0;
+}
+
+.category-list-item-link {
+	display: inline-block;
+	text-decoration: underline;
+	color: #000;
 }
