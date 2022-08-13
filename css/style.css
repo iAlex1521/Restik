@@ -129,7 +129,7 @@ nav {
 
 .private-column-title {
 	font-family: Akzidenz;
-	margin: 82px 0 37px 62px;
+	margin: 75px 0 26px 62px;
 	font-size: 50px;
 	/* line-height: 1; */
 	letter-spacing: 5px;
@@ -145,24 +145,26 @@ nav {
 }
 
 .private-column-buttons {
-	margin: 73px 0 0 62px;
+	margin: 70px 0 0 62px;
 	font-family: Bebas;
-	/* line-height: 1.67; */
+	line-height: 1.67;
 	letter-spacing: 1.5px;
-	
-}
+	}
 
 .private-column-buttons-button {
 	background-color: #fff;
 	color: #000;
-	padding: 17px 33px;
-	margin-right: 14px;
+	height: 50px;
+	padding: 15px 34px 15px 33px;
+	margin-right: 10px;
+	font-size: 18px;
 
 }
 
 .private-column-buttons-link {
 	text-decoration: underline;
 	color: #fff;
+	font-size: 18px;
 }
 
 /* block 2 Category */
@@ -175,7 +177,9 @@ nav {
 	display: flex;
 }
 
-.category-list-item {}
+.category-list-item {
+
+}
 
 .category-list-item-image {
 width: 220px;
@@ -188,32 +192,105 @@ width: 220px;
 	color: #000;
 	text-transform: uppercase;
 	width: 110px;
-	margin: 25px 0 36px 0;
+	margin: 22px 0 28px 5px;
 }
 
 .category-list-item-tex {
 	line-height: 1.67;
-	
+	margin-left: 6px;
 }
 
 .category-list-item-buttons {
 	font-family: Bebas;
-	line-height: 1.67;
+	/* line-height: 1.67; */
 	letter-spacing: 1.5px;
 	margin-bottom: 79px;
+	/* margin-left: 6px; */
 }
 
 .category-list-item-button {
 	display: inline-block;
 	background-color: #000;
 	color: #fff;
-	padding: 17px 33px;
+	padding: 18px 34px 17px 33px;
 	text-transform: uppercase;
-	margin: 32px 0 29px 0;
+	height: 50px;
+	margin: 25px 0 29px 6px;
+
+	font-size: 17px;
 }
 
 .category-list-item-link {
 	display: inline-block;
 	text-decoration: underline;
 	color: #000;
+	margin-left: 7px;
+	font-size: 18px;
+}
+
+/* advantage */
+.advantage-top {
+	display: flex;
+	height: 150px;
+}
+
+.advantage-top-text {
+	background-color: #000;
+	color: #fff;
+	font-family: Akzidenz;
+	font-size: 50px;
+	/* line-height: 0.5; */
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: right;
+	padding: 50px 55px 56px 0;
+	flex: 0 0 50%;
+}
+
+.advantage-top-image {
+	flex: 0 0 50%;
+	}
+
+.advantage-bottom {
+	background-color: #ebebeb;
+	}
+
+.advantage-list {
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	height: 400px;
+	width: 872px;
+	margin: 0px auto;
+	padding-top: 50px;
+}
+
+.advantage-list-column {
+	margin-left: 4px;
+	margin-bottom: 50px;
+	display: flex;
+
+}
+
+.advantage-list-column-image {
+	width: 100px;
+	height: 100px;
+}
+.advantage-list-column-right {
+	margin-left: 11px;
+}
+
+.advantage-list-column-title {
+	
+	font-family: Akzidenz;
+	font-size: 25px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin-bottom: 25px;
+}
+
+.advantage-list-column-text {
+	line-height: 1.67;
+	width: 300px;
 }
