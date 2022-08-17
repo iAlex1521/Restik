@@ -160,6 +160,13 @@ nav {
 	font-size: 18px;
 
 }
+.private-column-buttons-button:hover {
+	background-color: rgb(96, 151, 151);
+}
+
+.private-column-buttons-button:active {
+	background-color: aquamarine;
+}
 
 .private-column-buttons-link {
 	text-decoration: underline;
@@ -234,8 +241,12 @@ width: 220px;
 	text-transform: uppercase;
 	height: 50px;
 	margin: 25px 0 29px 6px;
-
 	font-size: 17px;
+}
+.category-list-item-button:hover {
+	background-color: #fff;
+	color: #4d4d4d;
+	border: #000 2px solid;
 }
 
 .category-list-item-link {
@@ -377,7 +388,7 @@ h3 {
 
 .Contacts-bottom-map {
 	flex: 0 0 50%;
-	/* height: 475px; */
+	height: auto;
 }
 
 .Contacts-bottom-forms {
@@ -426,4 +437,29 @@ textarea.Contacts-bottom-forms-input {
 	font-size: 18px;
 	margin: 25px 0 50px 0;
 }
-
+.Contacts-bottom-link:hover {
+	background-color: rgb(96, 151, 151);
+}
+.Contacts-bottom-link:active {
+	background-color: aquamarine;
+}
+/* -----------------------------------footer */
+footer {
+	padding: 44px 0;
+	display: flex;
+	max-width: 845px;
+	margin: 0 auto;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer-logo {
+	width: 156px;
+	height: 39px;
+}
+.footer-text {
+	line-height: 1.67;
+	color: #4d4d4d;
+}
+.footer-text span {
+	text-decoration: underline;
+}
