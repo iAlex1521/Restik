@@ -16,11 +16,11 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 @font-face {
 	font-family: Akzidenz;
-	src: url(./fonts/AkzidenzGroteskBQ-BdCnd.ttf);
+	src: url(../fonts/AkzidenzGroteskBQ-BdCnd.ttf);
 }
 @font-face {
 	font-family: Bebas;
-	src: url(./fonts/Bebas-Regular.ttf);
+	src: url(../fonts/Bebas-Regular.ttf);
 }
 /*--------------------*/
 body{
